@@ -60,3 +60,17 @@ teste em arquivos
 -------------------------
 
 #Recebimento de opções e parâmetros
+
+#Recebimento de opções e parâmetros
+#$0 --> o nome do script.sh
+#$* --> os argumento dados junto com o comando script.sh ex; script.sh um doi
+#$1 --> exibe o primeiro argumento do script.sh
+#$2 --> exibe o segundo argumento do script.sh
+#argumentos - mostra o valor das vairáveis especiais
+echo "O nome deste script é: $0"
+echo "Recebidos $# argumentos: $*"
+echo "O primeiro argumento recebido foi: $1"
+echo "O segundo argumento recebido foi: $2"
+#Ele serve para demonstrar o conteúdo de algumas variáveis especiais.
+
+                            
