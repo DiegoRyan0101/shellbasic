@@ -1,0 +1,10 @@
+para quebrar linha no shell basta dar um echo vazio
+ex;
+
+echo date
+echo
+echo df
+echo
+echo w
+
+o echo vaziou quebra linha no shell
