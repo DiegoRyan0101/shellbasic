@@ -1,0 +1,10 @@
+#/bin/bash
+o comando echo ele exibe coisas na tela, tanto valores de uma variável como também comandos do próprio linux.
+
+echo /etc/passed
+echo ls
+echo ls -lha
+
+
+variavel=(date)
+echo $variavel
