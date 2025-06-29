@@ -1,0 +1,17 @@
+para um script ser executado ele precisa de permissões 
+e como tornar um script executavel 
+usa-se os seguintes comandos 
+
+chmod 777 nome.sh
+
+ou
+
+chmod +x nome.sh
+
+os chmod daram permissões para tornar executavel o arquivo.
+-----------------------------------------
+e como se chama o arquivo script
+usa-se
+
+./ (ponto e barra, com estes comandos você chama o script)
+ex; ./nome.sh

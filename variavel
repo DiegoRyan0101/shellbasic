@@ -1,0 +1,30 @@
+Variáveis 
+as variaveis carregam atributos 
+e para declarar uma variável usar o sinal de igual "=" e para ver seu valor,
+usa-se o echo
+
+ex;
+
+VARIAVEL="UM DOIS TRÊS"
+ECHO "$VARIAVEL"
+
+note que para declarar uma variavel vocÊ precisa deixar o sinal de igualdade
+grudado ao nome VARIAVELm, em shell é assim para declarar uma variavel o sinal de igualdade precisa estar grudado ao nome da variavel
+e o conteúdo note que está entre aspas duplas, você pode colocar entre aspas simples se quiser também, mas tudo que estiver em aspas será enterpretado como uma string, um número entre aspas será uma string.
+e note que para você receber o conteúdo da variavel você precisa dar um echo; echo "$VARIAVEL" 
+note que para o conteudo da variável  ser ecoada na tela, a variável precisa começar com um sinal de cifrão antes $
+o sinal de cifrão identifica ou melhor ela chama o conteúdo da variável.
+e note que ela tem que estar entre aspas para o comando echo ecoar na tela, colocar entre aspas o conteúdo da variavel pode ser melhor, quando você queira escrever algo antes e colocar o conteúdo da variavel depois.
+
+
+você pode armazenar a saída de um comando dentro de uma variável. em vez de aspas, o comando dever colocado entre $(...) 
+ex;  
+
+HOJE=$(date)
+echo "Hoje é: $HOJE"
+
+
+o comando unset, apaga uma variável
+
+unset HOJE
+echo $HOJE

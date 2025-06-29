@@ -1,0 +1,62 @@
+#cat |Mostra aquivo| -n,-s
+-
+#cut |Extrai campo | -d -f, -c
+-
+#date |Mostra data  | -d,+'....'
+-
+#find |Encontra arquivos|-name,-iname,-type f,-exec
+-
+#grep |Encontra texto|-i,-v,-r,-qs,-w -x
+-
+#head |Mostra início|-n,-c
+-
+#printf |Mostra texto|nenhum
+-
+#rev |Inverte texto|nenhum
+-
+#sed |Edita texto|-n,-s/isso/aquilo/,d
+-
+#seq |Conta números|-s,-f
+-
+#sort |Ordena texto|-n,-f,-r,-k -t,-o
+-
+#tail |Mostra final|-n,-c,-f
+-
+#tr |Transforma texto|-d,-s,A-Z a-z
+-
+#uniq |Remove duplicatas|-i,-d,-u
+-
+#wc |Contra letras|-c,-w,-l,-L
+-
+#pipe | a barra em pé ou barra reta se chama pipe.
+Usando o pipe | é possível canalizar a saída de um comando diretamente para a entrada de outro, fazendo uma cadeia de comandos, 
+você pode fazer varios comandos ao mesmo tempo usando o pipe 
+ex; cat /etc/passwd | grep root | cut -c1-10
+-
+#test
+testes em variáveis
+-lt |Número é menor que
+-gt |Número é maior que
+-le |Número é menor igual
+-ge |Número é maior igual
+-eq |Número é igual
+-ne |Número é diferente
+=   |String é igual
+!=  |String é diferente
+-n  |String é não nula
+-z  |String é nula.
+-------------------------
+teste em arquivos
+-d  |É um diretório
+-f  |É um arquivo normal.
+-r  |O arquivo tem permissão de leitura.
+-s  |O tamanho do arquivo é maior que zero.
+-w  |O arquivo tem permissão de escrita.
+-nt |O arquivo é mais recenete 
+-ot |O arquivo é mais antigo 
+-ef |O arquivo é o mesmo
+-a  |E lógico(AND)
+-o  |OU lógico(OR)
+-------------------------
+
+#Recebimento de opções e parâmetros

@@ -1,0 +1,10 @@
+echo "Vou buscar os dados do sistema. Posso continuar? [s|n]
+read RESPOSTA
+test "$RESPOSTA"  = "n" && exit
+
+#O comando read leu oque o usuário digitou e guardou na variável RESPOSTA. Logo em seguida,
+#O comando test verificou se o conteúdo dessa variável era "n". Se a firmativo, o comando exit foi chamado e o script foi finalizado.
+
+#O conteúdo da variável é acessado colocando-se um cifrão "$" na frente.
+#O comando test é muito útil para fazer vários tipos de verificações em textos e arquivos.
+#O operador lógico && só exucuta o segundo comando caso o primeiro tenha sido OK. O operador inverso é o ||.

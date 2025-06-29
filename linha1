@@ -1,0 +1,6 @@
+#!/bin/bash
+
+todo comando no script em shell para ele ser identificado como um comando shell
+no topo sempre deve começar com #!/bin/bash ,para o sistema identificar que aquele arquvio é um arquivo shellscript
+
+
