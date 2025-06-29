@@ -1,3 +1,4 @@
+#!/bin/bash
 para quebrar linha no shell basta dar um echo vazio
 ex;
 
