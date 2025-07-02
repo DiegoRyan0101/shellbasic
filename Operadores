@@ -1,0 +1,51 @@
+#Operadores aritméticos
++  |Adição.
+-  |Subtração.
+*  |Multiplicação.
+/  |Divisão.
+%  |Módulo.
+** |Exponenciação
+############################
+############################
+#Operadores de atribuição
+=  |Atribui valor a uma variável.
++= |Incrementa a variável por uma constante.
+-= |Decrementa a  variável por uma constante.
+*= |Multiplica a variável por uma constante.
+/= |Divide a variável por uma constante.
+%/ |Resto da divisão por uma constante.
+++ |Incrementa em  1 o valor da variável.
+-- |Decrementa em 1 o valor da variável.
+##############################
+##############################
+#Operadores relacionais
+== |Igual.
+!= |Diferente.
+>  |Maior.
+>= |Maior ou igual.
+<  |Menor.
+<= |Menor ou igual
+#################################
+#################################
+#Operadores lógicos
+&& |E lógico(AND)
+|| |OU lógico(OR)
+#################################
+#################################
+#Operadores de bit
+<< |Deslocamento à esquerda.
+>> |Deslocamento à direita.
+&  |E de bit(AND)
+|  |OU de bit(OR)
+^  |OU exclusivo de bit (XOR)
+~  |Negação de bit
+!  |NÃO de bit(NOT)
+#################################
+#################################
+#Operadores de bit(atribuição)
+<<= |Deslocamento à esquerda.
+>>= |Deslocamento à direita.
+&=  |E de bit
+|=  |OU de bit
+^=  |OU exclusivo de bit
+#################################

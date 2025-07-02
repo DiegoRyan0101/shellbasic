@@ -1,0 +1,13 @@
+#sintaxe|#Descrição                                            |#Exemplo
+"..."   |Protege uma string, mas reconhece $,\e `como especiais|"abc"
+'...'   |Protege uma string, nenhum caractere é especial       |'abc'
+$'...'  |Protege uma string, mas interpreta \n,\t,\a etc...    |$'abc\n'
+`...`   |Executa comandos em uma subshell, retornando o resultado|`ls`
+{...}   |Agrupa comandos em um bloco                           |{ ls ; }
+(...)   |Executa comandos em uma subshell                      |( ls )
+$(...)  |Executa comandos em uma subshell, retornando o resultado|$( ls )
+((...)) |Testa uma operação aritmética, retornando 0 ou 1      |((5 > 3))
+$((...))|Retorna o resultado de uma operação aritmética        |$((5+3))
+[...]   |Testa uma expressão, retornando 0 ou 1(alias do comando test)|[5 -gt 3]
+[[...]] |Testa uma expressão, retornando 0 ou 1(podendo usar && e ||)|[[ 5 > 3 ]]
+

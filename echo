@@ -1,10 +1,13 @@
-#/bin/bash
-o comando echo ele exibe coisas na tela, tanto valores de uma variável como também comandos do próprio linux.
-
-echo /etc/passed
-echo ls
-echo ls -lha
-
-
-variavel=(date)
-echo $variavel
+#Espcape|Lembrete   |Descrição
+\a      |Alerta     |Aleta(bipe).
+\b      |Backspace  |Caractere Backspace.
+\c      |EOS        |Termina a string.
+\e      |Escape     |Caractere Esc.
+\f      |Form feed  |Alimentação.
+\n      |Newline    |Linha nova.
+\r      |Return     |Retorno de carro.
+\t      |Tab        |Tabulação horizontal.
+\v      |Vtab       |Tabulação vartical.
+\\      |Backslash  |Barra invertida \ literal.
+\nnn    |Octal      |Caractere cujo octal é nnn.
+\xnn    |Hexa       |Caractere cujo hexadecimal é nn.

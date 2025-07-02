@@ -1,0 +1,28 @@
+#cor      |letra|fundo
+Preto     |30   |40
+Vermelho  |31   |41
+Verde     |32   |42
+Amarelo   |33   |43
+Azul      |34   |44
+Rosa      |35   |45
+Ciano     |36   |46
+Branco    |37   |47
+#####
+###
+#atributo |valor
+Reset     |0
+Negrito   |1
+Sublinhado|4
+Piscando  |5
+Reverso   |7
+
+#ex;
+ESC[m texto normal (desliga cores)
+ESC[1m negrito
+ESC[33;1m amarelo
+ESC[44;37m fundo azul, letra cinza
+ESC[31;5m vermelho piscando
+
+#na linha de comando
+echo -e '\e[33;1m amarelo \e[m'
+echo -e '\033[33;1m amarelo \033[m'

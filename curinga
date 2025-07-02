@@ -1,0 +1,16 @@
+#curinga|casa com .....        |exemplo
+*       |qualquer coisa        |*.txt
+?       |Um caractere qualquer |arquivo-??.zip
+[...]   |Qualquer um dos caracteres listados|[Aa]rquivo.txt
+[^...]  |Qualquer um caractere, exceto os listados|[^A-Z]*.txt
+{...}   |Qualquer um dos textos separados por vírgula|arquivo.{txt,html}
+###################
+#################
+###################
+#CUringa para o comando case
+#curinga| casa com ......         |ex;
+*       |qualquer coisa           |*.txt) echo ;;
+?       |Um caractere qualquer    |arquivo-??.zip) echo ;;
+[...]   |Qualquer um dos caracteres listados|[0-9] echo ;;
+[^...]  |Qualquer um caractere, exceto os listados|[^0-9] echo ;;
+...|... |Qualquer um dos textos separados por | |txt|html) echo ;;

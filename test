@@ -1,0 +1,41 @@
+#Testes em arquivos
+-b |É um dispositivo de bloco.
+-c |É um dispositivo de caractere.
+-d |É um diretório.
+-e |O arquivo existe.
+-f |É um arquivo normal.
+-g |O bit SGID está ativado.
+-G |O grupo do arquivo é o do usuário atual. 
+-k |O sticky-bit está ativado.
+-L |O arquivo é um link simbólico.
+-O |O dono do arquivo é o usuário atual.
+-p |O arquivo é um named pipe.
+-r |O arquivo tem permissão de leitura.
+-s |O tamanho do arquivo é maior que zero.
+-S |O arquivo é um socket.
+-t |O descritor de arquivos N é um terminal.
+-u |O bit SUID está ativado.
+-w |O arquivo tem permissão de escrita.
+-x |O arquivo tem permissão de execução.
+-nt|O arquivo é mais recente(NewerThan).
+-ot|O arquivo é mais antigo(OlderThan).
+-ef|O arquivo é o mesmo(Equalfile).
+##
+#Comparação Numérica
+-lt |É  menor que
+-gt |É maior que
+-le |É menor igual
+-ge |É maior igual
+-eq |É igual
+-ne |É diferente 
+##
+#Comparação de Strings
+=  |É igual
+!= |É diferente
+-n |É não nula
+-z |É nula
+##
+#operadores lógicos
+!  |NÃO lógico(NOT)
+-a |E lógico(AND) 
+-o |OU lógico(OR)

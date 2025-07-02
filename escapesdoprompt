@@ -1,0 +1,29 @@
+#(PS1)
+######
+#Escape|Lembrete|Expande para..
+\a     |Alerta  |Alerta(bipe).
+\d     |Data    |Data no formato "Dia-da-semana Mês Dia"
+\e     |Escape  |Caractere Esc.
+\h     |Hostname|Nome da máquina sem o domínio(dhcp11).
+\H     |Hostname|Nome completo da máquina(dhcp11.empresa). 
+\j     |jobs    |Número de jobs ativos.
+\l     |Try     |Nome do terminal corrente(ttyp1).
+\n     |Newline |linha nova.
+\r     |Return  |retorno de carro.
+\s     |Shell   |Nome  do shell(basename $0).
+\t     |Time    |Horário no formato 24horas HH:MM:SS
+\T     |Time    |Horário no formato 12horas HH:MM:SS
+\@     |at      |Horário no formato 12horas HH:MM am/pm.
+\A     |At      |Horário no formato 24horas HH:MM.
+\u     |Usuário |login do usuário corrente.
+\v     |Versão  |Versão do bash.
+\V     |Versão  |Versão+subversão do bash.
+\w     |Working dir|Diretório corrente, caminho completo($PWD).
+\W     |Working dir|Diretório corrente, somente o último(basename $PWD).
+\!     |Histórico|Número do comando corrente no histórico. 
+\#     |Número|Número do comando corrente.  
+\$     |ID|Mostra # se for root, $ se for usuário normal.
+\nnn   |Octal|Caractere cujo octal é nnn.
+\\     |Backslash|Barra invertida \ literal.
+\[     |Escapes|Inicia uma sequência de escapes(como códigos de cores).
+\]     |Escapes|Termina uma sequência de escapes.
